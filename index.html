@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyStrokePro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://db.onlinewebfonts.com/c/34c73c5099b03cd01e184bde9d9b1f95?family=Banana+Grotesk+Extrabold"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="box">
+        <nav>
+            <i class="fa-solid fa-keyboard fa-2xl"></i>
+            KeyStrokePro
+        </nav>
+
+        <div id="choice">
+            <li>Choose Seconds</li>
+            <span>|</span>
+            <li class="ch">10</li>
+            <span>|</span>
+            <li class="ch">20</li>
+            <span>|</span>
+            <li class="ch active">30</li>
+            <span>|</span>
+            <li class="ch">50</li>
+            <span>|</span>
+            <li class="ch">100</li>
+        </div>
+        <div id="timer" class="timre">&nbsp;</div>
+        <div id="result" class="timre hidden">The result is</div>
+        <div id="text-box">
+            <div class="cont ">
+                <p id="corr" class="red active1"></p>
+                <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing </p>
+            </div>
+            <div class="cont">
+                <p class="red"></p>
+                <p class="text1">lit. Qui excepturi velit tempore autem recusandae</p>
+            </div>
+            <div class="cont">
+                <p class="red"></p>
+                <p class="text1">eaque porro minima placeat officiisnobis accusamus,</p>
+            </div>
+            <div class="cont">
+                <p class="red "></p>
+                <p class="text1">odit odio ea s imilique error architecto, rem </p>
+            </div>
+            <div class="cont">
+                <p class="red "></p>
+                <p class="text1">voluptatum deleniti!</p>
+            </div>
+        </div>
+        <div id="keyboard">
+            <div class="qwer">
+                <li class="as ">q</li>
+                <li class="as">w</li>
+                <li class="as">e</li>
+                <li class="as">r</li>
+                <li class="as">t</li>
+                <li class="as">y</li>
+                <li class="as">u</li>
+                <li class="as">i</li>
+                <li class="as">o</li>
+                <li class="as">p</li>
+                <li class="as">[</li>
+                <li class="as">]</li>
+                <li class="as">\</li>
+            </div>
+            <div class="qwer">
+                <li class="as">a</li>
+                <li class="as">s</li>
+                <li class="as">d</li>
+                <li class="as">f</li>
+                <li class="as">g</li>
+                <li class="as">h</li>
+                <li class="as">j</li>
+                <li class="as">k</li>
+                <li class="as">l</li>
+                <li class="as">;</li>
+                <li class="as">'</li>
+            </div>
+            <div class="qwer">
+                <li class="as">z</li>
+                <li class="as">x</li>
+                <li class="as">c</li>
+                <li class="as">v</li>
+                <li class="as">b</li>
+                <li class="as">n</li>
+                <li class="as">m</li>
+                <li class="as">,</li>
+                <li class="as">.</li>
+                <li class="as">/</li>
+            </div>
+            <div class="qwer">
+                <li class="as" id="space">Space bar</li>
+            </div>
+        </div>
+        <div id="res">
+            <i id="restart" class="fa-solid fa-arrow-rotate-right"></i>
+            <div style="margin-top:15px; margin-left: 23%; position: absolute;">Restart the test by pressing Shift+Enter
+            </div>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
